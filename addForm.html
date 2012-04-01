@@ -1,0 +1,22 @@
+<HTML>
+<HEAD>
+  <TITLE>図書登録</TITLE>
+</HEAD>
+<BODY>
+  <FORM action="add" method="POST">
+    <TABLE>
+      <TR><TD>タイトル: </TD><TD><INPUT name="title"></TD></TR>
+	  <TR><TD>著者:    </TD><TD><INPUT name="author"></TD></TR>
+	  <TR><TD>訳者:    </TD><TD><INPUT name="translator"></TD></TR>
+	  <TR><TD>出版社:  </TD><TD><INPUT name="publisher"></TD></TR>
+	  <TR><TD>出版日:  </TD><TD><INPUT name="publicationDate"></TD></TR>
+	  <TR><TD>ISBN:   </TD><TD><INPUT name="code"></TD></TR>
+	  <TR><TD>メモ:    </TD><TD><INPUT name="memo"></TD></TR>
+	  <TR><TD>キーワード: </TD><TD><INPUT name="keyword"></TD></TR>
+	  <TR><TD>登録者:  </TD><TD><INPUT name="dataCreator"></TD></TR>
+	  <TR><TD><INPUT type="submit" value="登録"></TD></TR>
+	  <INPUT type="hidden" name="step" value="prepare">
+	</TABLE>
+  </FORM>
+</BODY>
+</HTML>
